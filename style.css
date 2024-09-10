@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(#233c54, #3498db);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+padding: 5vw;
+}
+
+.card {
+    width: 100%;
+    
+    max-width: 300px;
+    background-color: white;
+    border-radius: 1.5em;
+    overflow: hidden;
+    margin: 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+
+img {
+    width: 100%;
+    border-radius: 30px;
+    height: auto;
+}
+
+
+h3 {
+    padding: 1rem;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+h4 {
+    color: #00000079;
+    text-align-last: center;
+    font-size: 15px;
+    margin-left: 15px;
+    line-height: 1.5;
+}
+
+.card:hover {
+    position: relative;
+    width: 325px;
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: ease-in-out 0.5s;
+    box-shadow: 0px 9px 30px rgb(2, 2, 2);
+button{
+    color: rgb(2, 255, 217);
+    display: inline-block;
+    padding: 0.5em ;
+    border-radius: 0.7em;
+    text-decoration: none;
+    margin-top: 16px;
+    margin-bottom: 10px;
+background-color: transparent;
+    transform: translateX(140%);
+    width: 90px;
+    content: initial;
+    cursor: pointer;
+    font-size: 1em;
+    border: 2px solid rgb(2, 255, 217);
+
+}
+
+}
+
+#insta  {
+
+    background-image: linear-gradient(to right, #f9ce34b5, #ee2a7cb2, #6228d7a9);
+}
+
+#git  {
+
+    background-image: linear-gradient(to right, #000000e6, #6228d7d3);
+}
+
+#geek  {
+
+    background-image: linear-gradient(to right, #ffffffdc, #189c0c);
+}
+
+#leet  {
+
+    background-image: linear-gradient(to right, #000000e2, #ffc400);
+}
+
+#x {
+
+    background-image: linear-gradient(to right, #151415, #ece9f012,rgba(0, 0, 0, 0.974));
+}
+
+mark {
+    border-radius: 30px;
+}
+
+button {
+    align-items: center;
+    margin: auto;
+
+display: flex;
+justify-content: center;
+
+}
+ 
+@media (max-width: 768px) {
+    .card {
+        width: 90%; /* Make the card take 90% of the screen on smaller devices */
+        margin: 10px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    h4 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 95%; /* Take almost full width on very small screens */
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+    
+    h4 {
+        font-size: 12px;
+    }
+}
+
+
+#allcard{
+    background-color: rgba(11, 11, 11, 0.34);
+    border-radius: 0.5em;
+}
+
+h1{
+   color: rgb(255, 255, 255);
+   text-align: center;
+   font-size: 3vw;
+   margin-top: 1.5em;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.b{
+    color: #09f3ff;
+    text-decoration:underline;
+}
+.h1:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.6s;
+}
+ 
