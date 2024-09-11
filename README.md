@@ -1,4 +1,4 @@
-MY SOCIAL MEDIA HANDLES
+MY SOCIAL MEDIA HANDLES,
 This project is a simple, responsive webpage that displays social media handles with associated QR codes. The design includes cards for each social media platform (Twitter, Instagram, GitHub) with QR codes and clickable buttons that direct users to the respective profiles.
 
 Features
