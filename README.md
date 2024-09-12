@@ -11,8 +11,8 @@ CSS: For styling the page and making it responsive.
 JavaScript: (if applicable) For any dynamic interactions.
 
 File Structure
-graphql
-Copy code
+graphql.
+Copy code.
 MY-SOCIAL-MEDIA-HANDLES/
 │
 ├── index.html      # The main HTML file
