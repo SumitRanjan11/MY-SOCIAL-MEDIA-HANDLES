@@ -3,7 +3,7 @@ This project is a simple, responsive webpage that displays social media handles 
 
 Features
 Responsive Design: The webpage adapts to different screen sizes, including desktops, tablets, and smartphones.
-Social Media Cards: Each card contains a QR code and a link to a social media profile.
+Social Media Cards: Each card contains a QR code and a link to a social media profile..
 CSS Styling: Includes modern design elements such as box shadows, gradients, and hover effects.
 Technologies Used
 HTML: For structuring the content.
